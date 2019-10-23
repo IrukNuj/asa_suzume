@@ -31,6 +31,18 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rubocop'
+  gem 'breakman'
+  gem 'bundler-audit'
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'rack-mini-profiler'
+  gem 'bullet'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'rufo'
+  gem 'annotate'
+  gem 'rails_best_practices'
 end
 
 group :development do
